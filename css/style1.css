@@ -1,0 +1,558 @@
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0; padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none; border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .2s linear; 
+}
+
+
+
+
+
+.btn{
+  display: inline-block;
+  margin-top: 1rem;
+  border: .2rem solid #222;
+  background: #fff;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  color: #222;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover{
+  color: #fff;
+  background: #E75480; 
+}
+
+.btn9{
+  display: inline-block;
+  border: .2rem solid #222;
+  background: #fff;
+  padding: 0.2rem 1rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #222;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.btn9:hover{
+  color: #fff;
+  background: #E75480; 
+  border: .2rem solid #222;
+}
+
+
+
+
+.registration{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  position: relative;
+   background: url(../images/background.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 0;
+}
+
+
+
+.signup-form-container{
+  position: relative;
+  top: 0; left: 0;
+  z-index: 10000;
+  min-height: 100vh;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.signup-form-container form{
+  margin:2rem;
+  padding:1.5rem 2rem;
+  border-radius: 2rem;
+  background:#fff;
+  width:50rem;
+  webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.signup-form-container form h2{
+  font-size: 3rem;
+  color:#444;
+  text-transform: uppercase;
+  text-align: center;
+  padding:1rem 0;
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+
+
+.signup-form-container form .box{
+  width:100%;
+  padding:1rem;
+  font-size: 1.7rem;
+  color:#333;
+  margin:.6rem 0;
+  border:.1rem solid rgba(0,0,0,.3);
+  text-transform: none;
+}
+
+.signup-form-container form .box:focus{
+  border-color: #e84393;
+}
+
+
+
+.signup-form-container form label{
+  font-size: 1.5rem;
+}
+
+.signup-form-container form .btn{
+  display: block;
+  width:100%;
+}
+
+
+.signup-form-container form p a{
+  color: #e84393;
+}
+
+.signup-form-container form p a:hover{
+  color:#333;
+  text-decoration: underline;
+}
+
+
+
+.signup-form-container form .contain{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#cmpo{
+  width: 15%;
+  margin-right: 1rem;
+  padding: 0rem;
+  font-size: 1rem;
+  color: #333;
+  background: #fff;
+  text-decoration: none;
+  box-shadow:none;	
+}
+
+#cmpo1{
+  width: 1rem;
+  font-size: 1rem;
+  color: #333;
+  background: #fff;
+  text-decoration: none;
+  box-shadow:none;  
+}
+
+
+.signup-form-container form input{
+  width: 80%;
+  margin: 1rem 0.2rem;
+  padding: 1rem;
+  font-size: 1.3rem;
+  color: #333;
+  background: #d9d9d9;
+  border-radius: 2rem;
+  text-decoration: none;
+  box-shadow:  0 1rem 2rem rgba(0,0,0,.1);
+}
+
+.signup-form-container form p{
+  width: 18%;
+  margin: 1rem 0;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #111;
+  background: #fff;
+  text-decoration: none;
+}
+
+.signup-form-container form textarea{
+  width: 49%;
+  margin: 1rem 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #111;
+  border-radius: 1.5rem;
+  background: #d9d9d9;
+  text-decoration: none;
+  box-shadow:  0 1rem 2rem rgba(0,0,0,.1);
+}
+
+.signup-form-container form textarea {
+  height: 15rem;
+  resize: none;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.signup-form-container1{
+  position: relative;
+  top: 0; left: 0;
+  z-index: 10000;
+  min-height: 100vh;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.signup-form-container1 form{
+  margin:2rem;
+  padding:1.5rem 2rem;
+  border-radius: 2rem;
+  background:#fff;
+  width:auto;
+  webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.signup-form-container1 form h2{
+  font-size: 1.5rem;
+  color:#444;
+  text-transform: uppercase;
+  text-align: center;
+  padding:1rem 0;
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+
+
+.signup-form-container1 form .box{
+  width:100%;
+  padding:1rem;
+  font-size: 1.7rem;
+  color:#333;
+  margin:.6rem 0;
+  border:.1rem solid rgba(0,0,0,.3);
+  text-transform: none;
+}
+
+.signup-form-container1 form .box:focus{
+  border-color: #e84393;
+}
+
+
+
+.signup-form-container1 form label{
+  font-size: 0.9rem;
+}
+
+.signup-form-container1 form .btn{
+  display: block;
+  width:100%;
+}
+
+
+.signup-form-container1 form p a{
+  color: #e84393;
+}
+
+.signup-form-container1 form p a:hover{
+  color:#333;
+  text-decoration: underline;
+}
+
+
+
+.signup-form-container1 form .contain{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+
+.signup-form-container1 form input{
+  width: 8rem;
+  margin: 0.2rem 0.2rem;
+  padding: 0.3rem;
+  font-size: 0.9rem;
+  color: #333;
+  background: #d9d9d9;
+  text-decoration: none;
+  box-shadow:  0 1rem 2rem rgba(0,0,0,.1);
+}
+
+.signup-form-container1 form p{
+  width: auto;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #111;
+  background: #fff;
+  text-decoration: none;
+}
+
+.signup-form-container1 form textarea{
+  width: 20%;
+  margin: 1rem 0;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #111;
+  background: #d9d9d9;
+  text-decoration: none;
+  box-shadow:  0 1rem 2rem rgba(0,0,0,.1);
+}
+
+.signup-form-container1 form textarea {
+  height: 15rem;
+  resize: none;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.signup-form-container2{
+  position: relative;
+  top: 0; left: 0;
+  z-index: 10000;
+  min-height: 100vh;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.signup-form-container2 form{
+  margin:2rem;
+  padding:1.5rem 2rem;
+  border-radius: 2rem;
+  background:#fff;
+  width:auto;
+  webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.signup-form-container2 form h2{
+  font-size: 1.5rem;
+  color:#444;
+  text-transform: uppercase;
+  text-align: center;
+  padding:1rem 0;
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+
+
+.signup-form-container2 form .box{
+  width:100%;
+  padding:1rem;
+  font-size: 1.7rem;
+  color:#333;
+  margin:.6rem 0;
+  border:.1rem solid rgba(0,0,0,.3);
+  text-transform: none;
+}
+
+.signup-form-container1 form .box:focus{
+  border-color: #e84393;
+}
+
+
+
+.signup-form-container2 form label{
+  font-size: 0.9rem;
+}
+
+.signup-form-container2 form .btn{
+  display: block;
+  width:100%;
+}
+
+
+.signup-form-container2 form p a{
+  color: #e84393;
+}
+
+.signup-form-container2 form p a:hover{
+  color:#333;
+  text-decoration: underline;
+}
+
+
+
+.signup-form-container2 form .contain{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+
+.signup-form-container2 form input{
+  width: 7rem;
+  margin: 0.2rem 0.2rem;
+  padding: 0.3rem;
+  font-size: 0.9rem;
+  color: #333;
+  background: #d9d9d9;
+  text-decoration: none;
+  box-shadow:  0 1rem 2rem rgba(0,0,0,.1);
+}
+
+.signup-form-container2 form p{
+  width: auto;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #111;
+  background: #fff;
+  text-decoration: none;
+}
+
+.signup-form-container2 form textarea{
+  width: 20%;
+  margin: 1rem 0;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #111;
+  background: #d9d9d9;
+  text-decoration: none;
+  box-shadow:  0 1rem 2rem rgba(0,0,0,.1);
+}
+
+.signup-form-container2 form textarea {
+  height: 15rem;
+  resize: none;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.search-form{
+  height: 2.7rem;
+  width: 50rem;
+  border-radius: 1rem;
+  background: #f1f1f1;
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  margin: 1rem; 
+}
+
+.search-form input{
+  width: 100%;
+  background: none;
+  font-size: 1.6rem;
+  color: #777;
+  text-transform: none;
+}
+
+.search-form label{
+  font-size: 1.5rem;
+  margin: auto;
+  color: #222;
+  cursor: pointer;
+}
+
+.search-form label:hover{
+  color: #E75480;
+}
+
+#pd1{
+  padding: 1rem;
+}
+
+.sppc{
+  margin: 1rem;
+  padding: 1rem;
+}
+
+

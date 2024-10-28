@@ -1,0 +1,744 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 12.6pt;
+    font-family: 'Poppins';
+}
+
+body{
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+}
+
+.container{
+    margin: 1rem;
+    padding: 2rem;
+    /* width: 100%; */
+    text-align: left;
+    background-color: white;
+    border: none;
+    border-radius: 0.5rem;
+    /* display: inline; */
+}
+
+.input_label_container{
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    display: inline;
+}
+
+.button_container{
+    text-align: center;
+    /* width: 70%; */
+    margin: 1rem 0rem 0 0;
+}
+
+.label_name{
+    color: black;
+
+}
+
+.astrix{
+    color: red;
+    margin-left: -10px;
+    margin-right: 2px;
+}
+
+.input_name{
+    /* width: 75%; */
+    position: relative;
+    left: -0.8rem;
+    margin: 5px 0.8rem;
+    height: 25px;
+    text-indent: 5px;
+    border-radius: 5px;
+    border: solid 1.5px #D3D3D3;
+    transition: 0.1s;
+}
+
+.cancelbtn{
+    width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.checkbox_div{
+    position: relative;
+}
+
+
+.prescription_box{
+    position: relative;
+    left: 2.8rem;
+    width: 75%;
+    height: 20rem;
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 0, 0, 0.8);
+    border-radius: 0.2rem;
+    text-align: end;
+}
+
+#eyewear_box{
+    position: relative;
+    left: -9rem;    
+    top: -0.02rem;
+}
+#contact_lens_box{
+    position: relative;
+    left: -9.2rem;
+    top: -0.02rem;
+}
+#transport_box{
+    position: relative;
+    left: -9.433rem;
+    top: -0.02rem;
+}
+
+
+
+
+
+.prescription_modal01{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#prescription_modal02{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#modal01{
+    display: block;
+}
+#modal02{
+    display: none;
+}
+#modal03{
+    display: none;
+}
+
+.btn-prescription-box{
+    position: relative;
+    left: 2.15rem;
+}
+
+
+
+
+.Prescription_DOM{
+    /* background-color: darkred;
+    background-image: linear-gradient(#717171, white);      */
+    background-color: rgb(0, 0, 0, 0.2);
+    color: black;
+    font-weight: 500;
+    border:none;
+    padding: 10px 20px;
+    position: relative;
+    left: -4.39rem;
+}
+
+.paragraph{
+    padding: 0;
+    margin: -0.01;
+    text-decoration-color: darkred;
+    text-decoration: underline;
+    overflow: hidden;
+}
+
+.table_container{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: -0.2rem;
+    flex-basis: 100%;
+    height: 10rem;
+}
+
+td{   
+    border: 1px solid black;
+}
+    
+.table_text{
+    color: rgb(0, 0, 0, 0.8);
+}
+
+.table_input{
+    width:10%;
+    background-color: darkred;
+    width: 2rem;
+    height: 1rem;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+}
+
+.right_container{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-gap: 3px; 
+}
+
+.column{
+    display: grid;
+    grid-gap: 3px;
+}
+
+.left_container{
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.div_text{
+    color: rgb(0, 0, 0, 0.8);
+}
+
+.div_input{
+    border:1px solid black;
+    padding: 5px;
+
+}
+
+.textarea_label{
+    position: relative;
+    top: -3.5rem;
+}
+
+.textarea_button{
+    position: relative;
+    top: -4.8rem;
+    left: -5rem;
+}
+
+.GST_container{
+    position: relative;
+    top: -2rem;
+}
+
+
+.btn-input{
+    padding: 0.3rem 1.8rem;
+    background-color: rgb(47, 85, 255);
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+.btn-input:hover{
+    cursor: pointer;
+    /* background-color: rgb(253, 136, 255);
+    color: black; */
+    border: none;
+    outline: 0.5px solid black;
+    box-shadow: 0 0 5pt 0.5pt rgb(236, 236, 236);
+}
+
+input[type=text]:hover{
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+
+input[type=text]:focus {
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+    outline: 2px solid rgb(253, 136, 255) ;
+}
+
+input[type=button]:hover{
+    border: none;
+    outline: 0.5px solid black;
+    box-shadow: 0 0 5pt 0.5pt rgb(236, 236, 236);
+    /*background-color: rgb(253, 136, 255);*/
+    /*color: black;*/
+}
+
+input[type=radio]{
+    position: relative;
+    top: 0.39rem;
+    border: 0px;
+    width: 1.2%;
+    height: 1.5em;
+}
+
+input[type=checkbox]{
+    width: 1.4rem;
+    height: 1.4rem;
+    position: relative;
+    top: 0.4rem;
+}
+
+textarea{
+    border-radius: 0.2rem;
+}
+
+
+/* javascript ccs */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    border-radius: 0.5rem;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.3s
+  }
+
+
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+
+.table{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.dis{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 0.5rem;
+}
+
+
+.reye{
+    display: flex;
+    column-gap: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.leye{
+    display: flex;
+    column-gap: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.input_name1{
+    width: 50px;
+    height: 25px;
+}
+
+.re label{
+    display: flex;
+    justify-content: center;
+}
+
+.le label{
+    display: flex;
+    justify-content: center;
+}
+
+.ieye{
+    display: flex;
+    column-gap: 0.9rem;
+}
+
+.left-table-side{
+    position: relative;
+    left: -1rem;
+}
+
+.right-table-side{
+    position: relative;
+    left: 1rem;
+}
+
+
+
+/* Main index */
+
+#Customer_notes{
+    position: relative;
+    top: -6rem;
+    left: -1rem;
+}
+
+#textarea_for_Customer_notes{
+    position: relative;
+    left: -1rem;
+}
+
+
+
+#productsTable{
+    border-collapse: collapse;
+}
+
+#productsTable td, th {
+    /* border: 1px solid #000000; */
+    border: 1px solid rgb(233, 233, 233) ;
+    /* padding: 0px 0px; */
+    padding: 2px px;
+}
+#productsTable th{   
+    background-color: rgb(46, 46, 46);
+}
+.text-white{
+    color: white;
+
+}
+
+#float_right{
+    text-align: right;
+}
+
+
+
+#pending_amount_and_table{
+    display: flex;
+    width: 98%;
+    flex: 0.5;
+}
+#pending_box{
+    display: flex;
+}
+.pending_amount{
+    position: relative;
+    top: 0rem;
+    left: 15%;
+    vertical-align: middle;
+}
+
+.pending_amount h1{
+    font-size: 32px;
+    color: rgb(0, 0, 0, 0.7);
+}
+.pending_table{
+    position: relative;
+    top: -50%;
+    left: 35.7%;
+
+}
+
+.coupon_in_pending_div_box{
+    transform: rotate(180deg);
+}
+
+.pending_box_div_p{
+    color: rgb(47, 85, 255);
+    font-size: 16px;
+}
+
+.Pending_box_div{
+    background-color: white;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    box-shadow: 2pt 2pt rgb(0,0,0,0.2);
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.Pending_box_div:hover{
+    background-color:rgba(255, 255, 255, 0.5);
+    border: 2px solid rgb(0, 0, 0, 0.2);
+    box-shadow: 2pt 2pt rgb(0,0,0,0.4);
+}
+
+.table_input_size{
+    width:60%;
+}
+
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left !important;
+}
+.center{
+    text-align: center;
+}
+
+/* .test_bg{
+    background-color: rgb(0, 0, 0, 0.4);
+    width: 100%;
+    height: 20rem;
+} */
+
+.border_less{
+    border: none;
+}
+
+.border_less tr td{
+    border: none;
+    text-align: right;
+}
+
+
+img{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+
+.fa-sharp {
+    margin-top: 1rem;
+    color: green;
+    font-size: 58px;
+}
+
+.percentage_icon{
+    width: 1.5rem;
+    height:1.5rem; 
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.table_percentage_icon{
+max-width: 100%;
+max-height: 100%;
+background-color: yellow;
+display: block; /* remove extra space below image */
+}
+
+
+/* invoice form */
+
+.float_top{
+    position: relative;
+    top: -22px;
+    left: 0;
+}
+
+.font{
+    font-size: 50px;
+}
+
+.bottom-border{
+    border-bottom: 1px solid black;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.plain{
+    font-weight: 200;
+}
+
+/* section 1 */
+#logo_address{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+}
+
+#logo{
+    flex: 0.5;
+}
+
+#logo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#address{
+    flex: 0.5;
+    text-align: right;
+}
+
+#address h1{
+    font-weight: bold;
+}
+
+/* seciton 2 */
+
+#customer_specbazaar{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#customer{
+    display: inline;
+}
+#specsbazaar{
+    margin-right: 10rem;
+}
+
+
+#customer p{
+    font-weight: bold;
+}
+
+#customer h1{
+    font-size: 34px;
+    font-weight: 100;
+    border-bottom: 1px solid black;
+}
+
+#specsbazaar h1{
+    font-size: 34px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+#specsbazaar p{
+    font-weight: bold;
+}
+
+/* section 3 */
+
+#invoice_table_container table,#invoice_table_container th,#invoice_table_container td {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 2px;
+    border: 1.5px solid black;
+    border-collapse: collapse;
+}
+
+
+/* section 4 */
+
+#advance_total_paid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table_design{
+    background-color: rgb(218, 218, 218);
+    margin-top: 1rem;
+    width: 50rem;
+    height: 10rem;
+    padding: 2px;
+    border: 1.5px solid black;
+    border-collapse: collapse;
+}
+
+#advance p{
+    font-size: 22px;
+}
+
+.position_top{
+    font-size: 12px !important;
+    position: relative;
+    top: -60px;
+    left: 154px;
+}
+
+#total_paid{
+    text-align: right;
+}
+
+#total_paid p{
+    font-size: 28px;
+}
+
+/* section 5 */
+
+.blueboxfontsize{
+    font-size: 20px;
+}
+
+#bluebox{
+    width: 40%;
+    border: 1px solid black ;
+    background-color: rgb(0, 255, 242);
+    text-align: center;
+}
+
+.blue{
+    color: blue;
+}
+
+/* seciton 6 */
+
+#headingpres{
+    width: 18%;
+}
+
+#headingpres h1{
+    position: relative;
+    top: 0;
+    left: 600px;
+    font-size: 34px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+/* section 7 */
+
+#patientname span{
+    font-size: 32px;
+}
+
+/* section 8  */
+
+#right_left_eye{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#right_left_eye p{
+    font-size: 22px;
+}
+
+/* section 9 */
+#eye_table{
+    table-layout: fixed;
+}
+
+#eye_table,#eye_table tr,#eye_table th,#eye_table td{
+    width: 100%;
+    border: 1.5px solid black;
+    /* border-width: thin; */
+    border-collapse: collapse;
+}
+
+.eye_table_th{
+    padding: 4px;
+    background-color: rgb(218, 218, 218);
+    text-align: center;
+}
+
+/* section 10 */
+
+input[type="checkbox"]{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.invoice_lable{
+    font-size: 22px;
+    margin-right: 1rem;
+}
+
+/* section 11 */
+#authsign{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: end;
+}
+
+#authsign p{
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 8rem;
+}
+
+
